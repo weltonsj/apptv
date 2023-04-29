@@ -1,0 +1,50 @@
+:root {
+    --cor1: #ffffff;
+    --cor2: #000000;
+    --cor3: #8B0000;
+    --cor4: #203C73;
+    --cor5: #99A6BF;
+    --cor6: #F2E0C9;
+    --cor7: #D97F30;
+    --cor8: #D94625;
+
+    /* Cores do Botão  primeira image*/
+    --cor9: #F82A2E;
+    --cor10: #05AFFD;
+    --cor11: #ffc400;
+    --cor12: #428bca;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: clamp(2.2vw, 3vw, 3.2vw);
+}
+
+/* .div-image-2 img:nth-of-type(2) {
+    position: absolute;
+    width: 30%;
+    top: 10%;
+    left: 10%;
+}
+
+.div-image-2 h2 {
+    position: absolute;
+    left: 70%;
+    width: 40vw;
+    color: var(--cor1);
+}
+
+.div-image-2 p {
+    position: absolute;
+    top: 28%;
+    width: 40vw;
+    left: 52%;
+    font-size: clamp(1.5vw, 1.5vw, 2vw);
+    color: var(--cor1);
+} */
+
+@media (max-width: 400px) {}
