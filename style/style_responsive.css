@@ -33,7 +33,7 @@
     }
 
     .main {
-        height: 200vh;
+        height: 170vh;
     }
 
     .div_3 .caixa_de_texto {
@@ -62,4 +62,16 @@
         flex-wrap: wrap;
     }
 
+}
+
+@media (max-width: 480px) {
+    .main {
+        height: 340vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        height: 340vh;
+    }
 }
