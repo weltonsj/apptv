@@ -1,0 +1,65 @@
+@media (max-width: 1000px) {
+    .download {
+        grid-template-areas:
+            "div_1 div_1"
+            "div_2 div_2"
+            "div_3 div_3"
+        ;
+        grid-template-rows: 250px 250px 600px;
+    }
+
+    .div_1 img {
+        width: min(250px, 80%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .div_2 div {
+        width: 70vw;
+        height: 50vh;
+    }
+
+    .div_2 h1 {
+        text-align: center;
+        font-size: clamp(1.5rem, 50%, 2.5rem);
+    }
+    
+    .div_2 p {
+        text-align: center;
+        text-align: justify;
+        font-size: clamp(1rem, 50%, 1.5rem);
+    }
+
+    .main {
+        height: 200vh;
+    }
+
+    .div_3 .caixa_de_texto {
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .div_3 h2 {
+        font-size: clamp(20px, 50%, 3vw);
+    }
+    
+    .div_3 p {
+        font-size: clamp(16px, 50%, 2vw);
+        font-weight: 600;
+    }
+    
+    .div_3 span {
+        color: var(--cor14);
+        font-weight: 600;
+    }
+
+    .div_3 .botoes_de_download {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
