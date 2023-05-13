@@ -1,0 +1,295 @@
+:root {
+    --cor-de-span: #5FFA2B;
+    --cor-de-fundo: #6680cb;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: white;
+}
+
+span {
+    color: var(--cor-de-span);
+}
+
+.sessao_tutor {
+    background-color: var(--cor-de-fundo);
+}
+
+.title h1 {
+    background-image: linear-gradient(-90deg, #ffe34a 0%, #28fff2 99.4873046875%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center;
+    font-weight: 700;
+}
+
+.bl01 h3 {
+    margin-bottom: 25px;
+}
+
+.bl02 h3,
+.bl03 h3,
+.bl04 h3 {
+    margin-bottom: 3.5vw;
+}
+
+.bl01 p span,
+.bl02 p span,
+.bl03 p span,
+.bl04 p span,
+.bl06 p span {
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+.bl03 p span {
+    color: gold;
+}
+
+.container-list {
+    position: relative;
+    padding: 15px 0px;
+}
+
+.icon-list {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: max(11%, 48px);
+}
+
+.container-list p {
+    position: absolute;
+    top: 50%;
+    left: 4.5vw;
+    transform: translateY(-50%);
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bl02 .list-item-4 {
+    margin: 0.3vw 0px;
+}
+
+.bl02 .list-item-4 p {
+    font-size: 1.35vw;
+    left: 0;
+}
+
+.bl02 .list-item-5 {
+    margin-top: 30px;
+}
+
+.bl02 .list-item-5 img {
+    width: max(60%, 26px);
+}
+
+.bl02 .list-item-5 p {
+    font-size: 1.35vw;
+    left: 45px;
+    background-image: linear-gradient(-90deg, #FFE34A 0%, #28FFF2 99.4873046875%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.aviso {
+    color: #C6C6C6;
+    margin-bottom: 25px;
+    font-size: 1.05vw;
+}
+
+.bl03 .container-list {
+    padding: 25px 0px;
+}
+
+.bl04 .container-list p {
+    left: 0px;
+}
+
+.bl04 .list-item-1 {
+    margin-bottom: 40px;
+}
+
+.bl04 .list-item-2 {
+    margin-bottom: 10px;
+}
+
+.title-bl06 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 3vw;
+    margin-bottom: 20px;
+}
+
+.bl06 p {
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-bl06 span:nth-of-type(2) {
+    background-image: linear-gradient(-90deg, #FF6900 0%, #E4FF65 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.title-bl06 span:nth-of-type(3) {
+    color: #BBD939;
+}
+
+.title-bl06 span:nth-of-type(4) {
+    font-weight: 600;
+    color: #DACE44;
+    font-size: 4.5vw;
+}
+
+.title-bl06 span:nth-of-type(5) {
+    background-image: linear-gradient(-90deg, #E5CE40 0%, #ECC947 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+@media (max-width: 1250px) {
+    .container-list p {
+        left: 60px;
+    }
+}
+
+@media (max-width: 999px) {
+    .container-list p {
+        left: 65px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .bl01 p span,
+    .bl02 p span,
+    .bl03 p span,
+    .bl04 p span,
+    .bl06 p span {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .aviso {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .container-list p {
+        font-size: 1rem;
+    }
+
+    .bl02 .list-item-4 p {
+        font-size: 1.2rem;
+    }
+
+    .bl02 .list-item-5 p {
+        font-size: 1.2rem;
+    }
+
+    .bl01,
+    .bl02,
+    .bl03,
+    .bl04,
+    .bl05,
+    .bl06 {
+        width: 500px;
+    }
+
+    .title-bl06 {
+        font-size: 2rem;
+    }
+
+    .bl06 p {
+        font-size: 1rem;
+    }
+
+    .title-bl06 span:nth-of-type(4) {
+        font-size: 2.5rem;
+    }
+
+    .bloco-standard {
+        gap: 100px;
+    }
+
+    .box-01,
+    .box-02,
+    .box-03 {
+        gap: 100px;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .bloco-standard {
+        gap: 50px;
+    }
+
+    .box-01,
+    .box-02,
+    .box-03 {
+        gap: 80px;
+    }
+
+    .bl01,
+    .bl02,
+    .bl03,
+    .bl04,
+    .bl05,
+    .bl06 {
+        width: 80vw;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    h3 {
+        font-size: 1.45rem;
+        text-align: center;
+    }
+
+    .aviso {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .icon-list {
+        width: max(11%, 55px);
+    }
+    
+    .container-list {
+        padding: 25px 0px;
+    }
+
+    .container-list p {
+        font-size: 0.9rem;
+    }
+
+    .bl03 .container-list {
+        padding: 45px 0px;
+    }
+
+    .title-bl06 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .bl06 p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .title-bl06 span:nth-of-type(4) {
+        font-size: 2.5rem;
+    }
+}
