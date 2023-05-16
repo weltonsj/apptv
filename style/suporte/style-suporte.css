@@ -175,9 +175,25 @@ img {
     height: min(400px, 500vh);
   }
 
-  .service-container {
-    left: 35%;
+  .container-2 img {
+    display: none;
   }
+
+  .service-container {
+    text-align: center;
+    /* margin-top: 80px; */
+    padding: 10px;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--color-background);
+    color: white;
+  }
+
+  /* .service-container {
+    left: 35%;
+  } */
+
   .service-container h3 {
     font-size: min(3.5vw, 20px);
   }
@@ -209,9 +225,9 @@ img {
     font-size: min(5vw, 23px);
   }
 
-  .container-2 img {
+  /* .container-2 img {
     display: none;
-  }
+  } */
   
   .service-container {
     text-align: center;
