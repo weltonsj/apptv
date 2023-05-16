@@ -9,22 +9,15 @@
 .box-01,
 .box-02,
 .box-03 {
-    /* border: 1px solid var(--cor2); */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 100px;
 }
 
-/* .title,
-.bl01,
-.bl02,
-.bl03,
-.bl04,
-.bl05,
-.bl06 {
-    border: 1px solid black;
-} */
+.box-03 {
+    margin-bottom: 80px;
+}
 
 .title {
     text-align: center;
@@ -46,7 +39,6 @@
 }
 
 h1 {
-    /* font-size: clamp(2rem, 2.5vw, 2.75rem); */
     font-size: 2.5vw;
 }
 
@@ -59,7 +51,7 @@ h3 span {
     font-family: serif;
 }
 
-img {
+/* img {
     max-width: 100%;
     flex: 1 1 200px;
-}
+} */

@@ -32,9 +32,10 @@
 } */
 
 body {
-    position: relative;
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
 }
 
 h1,
@@ -61,7 +62,7 @@ img {
     justify-content: center;
     max-width: 100vw;
     height: 70px;
-    font-size: max(12px, 1.2vw);
+    font-size: min(3.5vw, 18px);
     background-color: var(--cor2);
     box-shadow: -2px 2px 5px var(--cor2);
 }
@@ -334,30 +335,39 @@ img {
 
 /* Fim da página */
 .footer {
-    position: absolute;
-    bottom: 0;
+    height: 150px;
+    margin-top: auto;
     background-color: var(--cor2);
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: min(3vw, 18px);
+    font-weight: 400;
 }
 
-.footer p {
+.contact-whatsapp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-whatsapp img {
+    width: max(2vw, 18px);
+}
+
+.contact-email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-whatsapp a,
+.contact-email p,
+.contact-email a,
+.rights-reserved {
     color: var(--cor1);
-    font-size: clamp(1.2vw, 1vw, 1.3vw);
-    text-align: center;
-    padding: 2%;
-    text-shadow: -2px 2px 5px var(--cor2);
-}
-
-.footer a {
-    text-decoration: none;
-    color: var(--cor1);
-}
-
-.footer img {
-    position: absolute;
-    top: 19%;
-    left: 43%;
-    max-width: 2%;
 }
 
 /* Responsividade página index*/

@@ -12,6 +12,42 @@ span {
     color: var(--cor-de-span);
 }
 
+/* Cabeçalho topo da página  */
+.header {
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    height: 70px;
+    font-size: min(3.5vw, 18px);
+    background-color: black;
+    box-shadow: -2px 2px 5px black;
+}
+
+.header img {
+    position: absolute;
+    display: block;
+    top: 15%;
+    left: 10%;
+    width: 2rem;
+    filter: drop-shadow(1px 1px 2px var(--cor2));
+}
+
+/* Navegação do topo da página */
+.header a {
+    color: var(--cor1);
+    padding: 15px;
+    text-shadow: 1px 2px 5px var(--cor2);
+}
+
+.header a:hover {
+    color: var(--cor11);
+}
+
+/* Corpo do site */
 .sessao_tutor {
     background-color: var(--cor-de-fundo);
 }
@@ -151,6 +187,43 @@ span {
     -webkit-background-clip: text;
 }
 
+/* Fim da página */
+.footer {
+    height: 150px;
+    margin-top: auto;
+    background-color: var(--cor2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: min(3vw, 18px);
+    font-weight: 400;
+}
+
+.contact-whatsapp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-whatsapp img {
+    width: max(2vw, 18px);
+}
+
+.contact-email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-whatsapp a,
+.contact-email p,
+.contact-email a,
+.rights-reserved {
+    color: var(--cor1);
+}
+
 @media (max-width: 1250px) {
     .container-list p {
         left: 60px;
@@ -266,7 +339,7 @@ span {
     .icon-list {
         width: max(11%, 55px);
     }
-    
+
     .container-list {
         padding: 25px 0px;
     }
